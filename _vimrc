@@ -11,13 +11,13 @@
 " vundle {
 " set rtp+=~/.vim/bundle/vundle/
 " 如果在windows下使用的话，设置为
-set rtp+=$HOME/.vim/bundle/vundle/
-call vundle#rc()
+" set rtp+=$HOME/.vim/bundle/vundle/
+" call vundle#rc()
 " }
 "
 " let Vundle manage Vundle
 " required!
-Bundle 'gmarik/vundle'
+" Bundle 'gmarik/vundle'
 
 " original repos on github （Github网站上非vim-scripts仓库的插件，按下面格式填写）
 " Bundle 'tpope/vim-fugitive'
@@ -220,10 +220,11 @@ if !exists("g:vimrc_loaded")
 		"set guioptions-=m
 		"set guioptions-=L
 		"set guioptions-=r
-		colorscheme darkblue_my
+		"colorscheme darkblue_my
+		colorscheme desert
 		"hi normal guibg=#294d4a
 	else
-		colorscheme desert_my
+		colorscheme desert
 	endif " has
 endif " exists(...)
 set guifont=Bitstream\ Vera\ Sans\ Mono\ 6
